@@ -4,20 +4,24 @@ public class JavaVariables_andDataTypes {
 	static void q1() {
 		int x = 2;
 		int y = 4;
+		System.out.println("Quation q1 ans:");
 		System.out.println(x * y);
 	}
 	static void q2() {
 		char c = 'U';
 		int ascii = c;
+		System.out.println("Quation q2 ans:");
 		System.err.println(ascii);
 	}
 	static void q3() {
 		int len = 7;
 		int breadth = 4;
+		System.out.println("Quation q3 ans:");
 		System.out.println(len * breadth);
 	}
 	static void q4() {
 		int num = 4;
+		System.out.println("Quation q4 ans:");
 		System.out.println(num * num * num);
 	}
 	static void q5() {
@@ -26,6 +30,7 @@ public class JavaVariables_andDataTypes {
 		int temp = a;
 		a = b;
 		b = temp;
+		System.out.println("Quation q5 ans:");
 		System.out.println(a + " " + b);
 	}
 	public static void main(String[] args) {
